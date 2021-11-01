@@ -1,0 +1,8 @@
+{
+    "compilerOptions":{
+        "baseUrl":"src", // src폴더 내 모든 .ts파일을 컴파일
+		"outDir":"./dist", // dist 폴더에 생성된 .js파일을 저장
+        "noEmitOnError":true, // 컴파일 오류 발생 시, js파일 생성 X
+        "target":"es5" // es5로 컴파일
+    }
+}
