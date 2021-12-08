@@ -11,3 +11,9 @@ class MockProductService3_22{
     return {id: 456, description: 'Not a real product'};
   }
 }
+
+/*
+class MockProductService3_22 implements ProductService3_22{
+  // 이곳에구현
+}
+*/
